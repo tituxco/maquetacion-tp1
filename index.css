@@ -1,0 +1,57 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(to right, #6933cc, #23074d);
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;      
+    color: white;
+    text-align: center;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;      
+    color: white;
+    text-align: left;    
+}
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;      
+    color: white;
+    text-align: center;    
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+img:hover{
+    filter: blur(2px);   
+}
+
+.tarjetas-intereses{
+    position:relative;
+    width: 500px;
+    height: 250px;
+    border: solid 1px black;
+    margin: 5px;
+}
+.cajas-texto p{    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 50%;
+    color: black;    
+}
+
+.pesca{
+    border-radius: 10px;
+    overflow: hidden;
+}
