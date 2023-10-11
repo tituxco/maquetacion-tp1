@@ -25,7 +25,8 @@ section{
     position: relative;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;   
+    justify-content: center; 
 }
 img{
     height: 100%;
