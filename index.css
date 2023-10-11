@@ -17,7 +17,7 @@ h2{
 }
 h3{
     font-family: 'Quicksand', sans-serif;
-    font-weight: 100;      
+    font-weight: bold;      
     color: white;
     text-align: center;    
 }
@@ -30,10 +30,13 @@ section{
 img{
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit:cover;
+}
+div:hover p{
+    visibility: visible;
 }
 img:hover{
-    filter: blur(2px);   
+    filter: brightness(40%);
 }
 
 .tarjetas-intereses{
@@ -43,12 +46,22 @@ img:hover{
     border: solid 1px black;
     margin: 5px;
 }
-.cajas-texto p{    
+.cajas-texto h3{    
     position: absolute;
     top: 0px;
-    left: 0px;
-    opacity: 50%;
-    color: black;    
+    left:0px;    
+    color:white;    
+    font-weight: bold;
+    text-shadow: 3px 3px 4px black;
+}
+.cajas-texto p{    
+    position: absolute;
+    top: 50px;
+    left: 0px;    
+    color:white; 
+    font-weight: bold;   
+    text-shadow: 1px 1px 2px black;
+    visibility: hidden;
 }
 
 .pesca{
